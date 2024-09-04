@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">CS<sup>2</sup></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#AboutMe">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#Skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#Education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <select name="sem" id="res" class="form-select bg-dark text-light border-0 ms-3">
+                            <option value="sem1">Sem1</option>
+                            <option value="sem2">Sem2</option>
+                            <option value="sem3">Sem3</option>
+                            <option value="sem4">Sem4</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <div class="container py-5 text-center">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img class="img-fluid rounded-circle" src="./profile.jpg" alt="Profile Image">
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+                <h1 class="display-4">Chetan Sapkal</h1>
+                <p class="lead">Frontend Developer | ML Engineer | Data Scientist</p>
+                <hr class="my-4">
+            </div>
+        </div>
+    </div>
+
+    <!-- About Me -->
+    <section id="AboutMe" class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <p>
+                        👩‍💻 As a frontend developer, I craft elegant web experiences with a toolbox including HTML, CSS, and JavaScript. I’m obsessed with responsive design and accessibility. <br>
+                        🤖 As an ML enthusiast, I dive into neural networks and data wrangling. Python is my language of choice, and I’ve tinkered with sentiment analysis and reinforcement learning.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="Skills" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Skills</h2>
+            <div class="d-flex justify-content-center flex-wrap gap-3">
+                <span class="badge bg-dark text-white py-2 px-4">JavaScript</span>
+                <span class="badge bg-success py-2 px-4">Python</span>
+                <span class="badge bg-warning text-dark py-2 px-4">React JS</span>
+                <span class="badge bg-secondary py-2 px-4">JAVA</span>
+            </div>
+            <div class="mt-4">
+                <p>
+                    👩‍💻 Combining creativity and code, I craft seamless web experiences. Proficient in HTML, CSS, React, and Vue.js. As a **Python-loving ML enthusiast**, I dive into algorithms, data wrangling, and projects. Bridging these worlds, I create magic at the intersection of design and data. 🌟
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="Education" class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="card">
+                        <h5 class="card-header text-center bg-primary text-white">Education</h5>
+                        <div class="card-body">
+                            <h5 class="card-title">SSC</h5>
+                            <p class="card-text">Percentage: 94%</p>
+                        </div>
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title">HSC</h5>
+                            <p class="card-text">Percentage: 76.67%</p>
+                        </div>
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title">B.Tech Computer Engineering</h5>
+                            <p class="card-text">CGPA: 9.48</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid rounded-3 shadow" src="https://www.aimlay.com/wp-content/uploads/2022/08/edu.jpg" alt="Education">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <div class="text-center my-4">
+        <a href="#top" class="btn btn-dark">Go to Top</a>
+    </div>
+</body>
+</html>
